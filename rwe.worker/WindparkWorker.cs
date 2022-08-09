@@ -19,6 +19,7 @@ public class RweWorker : BackgroundService {
 			// get data
 			var parks = windparkClient.GetParks();
 
+
 			await Task.Delay(1 * 60 * 1000, stoppingToken);
 		}
 	}
