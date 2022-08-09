@@ -27,22 +27,6 @@ services:
     volumes:
       - ./rwe.worker/log:/src/log
 
-  rwe.db:
-    restart: always
-    image: microsoft/mssql-server-linux:2017-latest
-    container_name: sql2017
-    hostname: 'sql2017'
-    ports:
-      - 14330:1433
-      - 14340:1434
-    networks:
-      - rwe-net
-    environment:
-      - 'ACCEPT_EULA=Y'
-      - 'SA_PASSWORD=12wsW99RWQERDVax'
-    volumes:
-      - ./sql2017:/var/opt/mssql
-
   rabbitmq:
     restart: always
     image: rabbitmq:3-management
