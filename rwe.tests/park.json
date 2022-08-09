@@ -1,0 +1,69 @@
+{
+  "name": "Halle",
+  "description": "Halle an der Saale",
+  "id": 1,
+  "region": "O",
+  "country": "DE",
+  "turbines": [
+    {
+      "id": 1,
+      "name": "T101",
+      "manufacturer": "Nordex",
+      "version": 3,
+      "maxProduction": 9,
+      "currentProduction": 4.463105385366295,
+      "windspeed": 5.653745733738638,
+      "windDirection": "O"
+    },
+    {
+      "id": 2,
+      "name": "T102",
+      "manufacturer": "Nordex",
+      "version": 1,
+      "maxProduction": 9,
+      "currentProduction": 1.8999800180684148,
+      "windspeed": 0.7168858310053825,
+      "windDirection": "O"
+    },
+    {
+      "id": 3,
+      "name": "T103",
+      "manufacturer": "Nordex",
+      "version": 3,
+      "maxProduction": 9,
+      "currentProduction": 6.810047242750523,
+      "windspeed": 14.343221908926903,
+      "windDirection": "O"
+    },
+    {
+      "id": 4,
+      "name": "T201",
+      "manufacturer": "Nordex",
+      "version": 3,
+      "maxProduction": 9,
+      "currentProduction": 2.608514324779666,
+      "windspeed": 4.292352501456036,
+      "windDirection": "O"
+    },
+    {
+      "id": 5,
+      "name": "T202",
+      "manufacturer": "Nordex",
+      "version": 3,
+      "maxProduction": 9,
+      "currentProduction": 6.867401560437386,
+      "windspeed": 13.953825446977287,
+      "windDirection": "O"
+    },
+    {
+      "id": 6,
+      "name": "T203",
+      "manufacturer": "Nordex",
+      "version": 3,
+      "maxProduction": 9,
+      "currentProduction": 5.7922818109730985,
+      "windspeed": 14.21511860561011,
+      "windDirection": "O"
+    }
+  ]
+}
